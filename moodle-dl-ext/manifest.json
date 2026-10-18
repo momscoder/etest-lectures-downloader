@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Moodle Lecture Downloader",
+  "version": "1.1.0",
+  "description": "Кнопка скачивания слайдов лекций на etest.bsmu.by",
+  "host_permissions": [
+    "https://etest.bsmu.by/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://etest.bsmu.by/mod/page/view.php*",
+        "https://etest.bsmu.by/mod/resource/view.php*",
+        "https://etest.bsmu.by/mod/book/view.php*",
+        "https://etest.bsmu.by/mod/book/tool/print/*"
+      ],
+      "js": ["pdf-lib.min.js", "content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}
