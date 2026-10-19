@@ -8,7 +8,7 @@
 <img width="426" height="240" alt="moodle (1)" src="https://github.com/user-attachments/assets/735f6a07-7537-4747-83c1-4439af8f64ee" />
 
 ## Установка
-1. Скачайте архив
+1. Скачайте [последний архив](../../releases/latest)
 2. Распакуйте его в удобную папку.
 3. Откройте страницу управления расширениями:
    - Chrome:  `chrome://extensions/`
